@@ -1,0 +1,40 @@
+section#courses .nav-link{
+  color:white;
+}
+section#courses .nav-link.active{
+    background-color: red;
+   
+  }
+
+  section#contact-i{
+      color:red;
+      font-size: 2rem;
+  }
+  footer i {
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+    transition: color 1s;
+  }
+  
+  footer i:hover {
+    color: var(--red);
+  }
+ 
+.up-btn {
+    color:blue ;
+     position: fixed;
+     bottom:1rem;
+     right: 1rem;
+     width: 50px;
+     height: 50px;
+     background-color: red;
+     border-radius: 50%;
+     text-align: center;
+     font-size: 2rem;
+     
+ 
+}  
+.up-btn:hover {
+   color:black; 
+}
